@@ -7,6 +7,8 @@
 
   function init() {
 
+    //  $('[data-toggle="popover"]').popover();
+
     populateTable();
 
     $('#addressInput').click(clearAddressBox);
@@ -139,10 +141,10 @@
     // $('#addToContactsButton').popover('hide');
 
     if (!(name + email + phoneNumber + address)){
-      $('#addToContactsButton').popover('show');
+      // $('#addToContactsButton').popover('show');
       return;
     } else {
-
+      console.log('there');
     let newContact = new Contact(name, email, phoneNumber, address);
     contactsData.push(newContact);
 
@@ -166,5 +168,6 @@
     this.edit = false;
     this.delete = false;
   }
+
 
 })(jQuery);
