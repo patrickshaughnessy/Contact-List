@@ -1,0 +1,38 @@
+#title {
+  text-align: center;
+}
+
+#addressInput {
+  word-wrap: break-word;
+  white-space: normal !important;
+}
+
+.container {
+  margin-bottom: 1%;
+}
+
+body {
+  background-color: #C0C0C0;
+  color: #FFFFFF;
+}
+
+.table {
+  background-color: #000000;
+}
+
+.table thead {
+  background-color: #717D8C;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: #000080;
+}
+
+.table td input {
+  color: black;
+}
+
+.popover{
+    background: #ffff99;
+    color: black;
+}
